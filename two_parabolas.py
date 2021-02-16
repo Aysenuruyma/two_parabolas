@@ -35,5 +35,11 @@ y_3 = d*(x_3**2) + e*x_3 + f
 
 plt.plot (x_1, y_1)
 plt.plot (x_3, y_3)
+
+# BU DENEMELER COMMON POINTLERİ İŞARETLEMEK İÇİN YAPILDI. SONUÇ HENÜZ BAŞARISIZ!
+
+##plt.scatter (x_1, x_2)
+##plt.scatter (x_1, (a-d)*(x_1**2) + (b-e)*x_1 + (c-f))
+
 plt.grid ()
 plt.show()
